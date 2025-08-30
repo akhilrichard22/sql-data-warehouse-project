@@ -45,6 +45,7 @@ GO
 -----------------------------------------
 CREATE DATABASE SCOPED CREDENTIAL AzureBlobSas
 WITH IDENTITY = 'SHARED ACCESS SIGNATURE',
+-- Always check SAS token expiry
 SECRET = 'sv=2024-11-04&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-08-29T00:29:54Z&st=2025-08-28T16:14:54Z&spr=https&sig=%2FnrJTCGtgivrUIYz7wNU3OEXsV6pENLhke6vlmp6%2Bes%3D';
 PRINT 'Database Scoped Credential created';
 GO
