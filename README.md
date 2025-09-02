@@ -8,7 +8,7 @@ It follows the **Medallion Architecture** (Bronze, Silver, Gold) to ensure data 
 ## 📂 Project Overview
 
 - **Data Sources**: CRM and ERP datasets provided in CSV format.  
-- **Data Warehouse**: Implemented in **SQL Server Express**.  
+- **Data Warehouse**: Implemented in **Microsoft SQL Server (Azure)**.  
 - **ETL Pipelines**: Built using SQL scripts for cleansing and transformation.  
 - **Data Model**: Final data organized into fact and dimension tables for analysis.  
 - **Analytics**: SQL queries to generate insights into customers, products, and sales.
@@ -35,10 +35,10 @@ It follows the **Medallion Architecture** (Bronze, Silver, Gold) to ensure data 
 
 ## 🛠️ Tools Used
 
-- **Microsoft SQL Server on Azure** – Cloud data warehouse platform 
-- **SQL Server Management Studio (SSMS)** – SQL development and management  
-- **Draw.io** – Data architecture and modeling diagrams  
-- **GitHub** – Version control and project hosting  
+- **Microsoft SQL Server (Azure)** – Cloud-hosted relational database platform for data storage and management  
+- **Azure Data Studio** – SQL development, query execution, and database management  
+- **Draw.io** – Data modeling and system architecture visualization  
+- **GitHub** – Version control, collaboration, and project hosting  
 
 ---
 
